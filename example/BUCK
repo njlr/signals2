@@ -1,0 +1,20 @@
+cxx_binary(
+  name = 'custom_combiners',
+  srcs = [
+    'custom_combiners.cpp',
+  ],
+  deps = [
+    '//:signals2',
+  ],
+)
+
+
+cxx_binary(
+  name = 'hello_world_slot',
+  srcs = [
+    'hello_world_slot.cpp',
+  ],
+  deps = [
+    '//:signals2',
+  ],
+)
